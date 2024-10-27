@@ -1,6 +1,6 @@
 - [Getting started](getting_started.md)
 - [Tutorials](tutorials/README.md)
-  - [AES CPA](tutorials/aes_cap.md)
+  - [AES CPA](tutorials/aes_cpa.md)
 - [Guides](guides.md)
 - [API]()
 - [Developer]()
