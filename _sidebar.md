@@ -2,7 +2,6 @@
 - [Tutorials](tutorials/README.md)
   - [AES CPA](tutorials/aes_cpa.md)
 - [Guides](guides.md)
-- [API]()
 - [Developer]()
   - [Develop enviroment](developer/environment_preparation.md)
   - [CNP protocol](developer/cnp_protocol_support.md)
