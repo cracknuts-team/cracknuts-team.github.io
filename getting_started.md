@@ -32,12 +32,50 @@ pip install cracknuts
 
 ```shell
 pip install cracknuts-panel
-pip install jupyter=
+pip install jupyter
 ```
 
 安装成功后，按照下图运行成功即可
 
-![image-20241027143300952](asset/jupyter-demo.png)
+```python
+# 引入依赖
+from cracknuts.cracker.basic_cracker import CrackerS1
+from cracknuts.cracker.stateful_cracker import StatefulCracker
+
+# 创建 mock cracker 
+cracker = CrackerS1(('localhost', 9761))
+# 创建 stateful cracker
+cracker = StatefulCracker(cracker)
+```
+
+---
+
+```python
+# 引入流程控制模板
+from cracknuts.acquisition import Acquisition as template
+import time
+
+def do(cracker):
+    # 循环中的数据写入，如：明文等
+    time.sleep(0.1) # 模拟操作
+    return b'123123' # 模拟返回保存的明文数据
+
+# 通过模板构造 acquistion 实体
+acq = template.builder().cracker(cracker).init(lambda _: None).do(do).build()
+```
+
+```python
+# 引入 cracknuts 面板
+from cracknuts_panel import display_cracknuts_panel
+
+# 创建面板
+cp = display_cracknuts_panel(acq)
+cp
+```
+
+执行后展示效果如下：
+
+![image-20241028210153744](./getting_started.assets/image-20241028210153744.png)
 
 ### 安装`Scarr`（可选）
 
