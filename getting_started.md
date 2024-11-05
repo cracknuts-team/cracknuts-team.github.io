@@ -208,15 +208,19 @@ cd scarr
 pip install .
 ```
 
+## `Jupyter` 组件
 
-
-## 采集波形
+### 采集波形
 
 在`Jupyter`中，使用`cracknuts_panel`面板对设备及采集流程进行控制，其界面如下，
 
 ![image-20241105125133787](./getting_started.assets/image-20241105125133787.png)
 
-## 分析波形
+![image-20241105125814192](./getting_started.assets/image-20241105125814192.png)
 
-todo
+### 分析波形
+
+波形分析过程中提供波形展现组件，便于对采集后的文件进行查看：
+
+![image-20241105130129887](./getting_started.assets/image-20241105130129887.png)
 
