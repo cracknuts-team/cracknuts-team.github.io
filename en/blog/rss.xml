@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>CrackNuts Blog</title>
+        <link>https://cracknuts.io/en/blog</link>
+        <description>CrackNuts Blog</description>
+        <lastBuildDate>Sun, 11 Aug 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[The first debut in Chengdu]]></title>
+            <link>https://cracknuts.io/en/blog/2024/08/11/the-first-debut-in-chengdu</link>
+            <guid>https://cracknuts.io/en/blog/2024/08/11/the-first-debut-in-chengdu</guid>
+            <pubDate>Sun, 11 Aug 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Some thing in Chengdu.]]></description>
+            <content:encoded><![CDATA[<p>Some thing in Chengdu.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Why create CrackNuts!]]></title>
+            <link>https://cracknuts.io/en/blog/2024/07/01/why-create-cracknuts</link>
+            <guid>https://cracknuts.io/en/blog/2024/07/01/why-create-cracknuts</guid>
+            <pubDate>Mon, 01 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[The challenges in side-channel analysis work]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-challenges-in-side-channel-analysis-work">The challenges in side-channel analysis work<a href="https://cracknuts.io/en/blog/2024/07/01/why-create-cracknuts#the-challenges-in-side-channel-analysis-work" class="hash-link" aria-label="Direct link to The challenges in side-channel analysis work" title="Direct link to The challenges in side-channel analysis work">​</a></h2>
+<p>SOME THINGS.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-problems-our-team-aims-to-solve">The problems our team aims to solve<a href="https://cracknuts.io/en/blog/2024/07/01/why-create-cracknuts#the-problems-our-team-aims-to-solve" class="hash-link" aria-label="Direct link to The problems our team aims to solve" title="Direct link to The problems our team aims to solve">​</a></h2>
+<p>SOME THINGS.</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

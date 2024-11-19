@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://cracknuts.io/en/blog</id>
+    <title>CrackNuts Blog</title>
+    <updated>2024-08-11T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://cracknuts.io/en/blog"/>
+    <subtitle>CrackNuts Blog</subtitle>
+    <icon>https://cracknuts.io/en/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[The first debut in Chengdu]]></title>
+        <id>https://cracknuts.io/en/blog/2024/08/11/the-first-debut-in-chengdu</id>
+        <link href="https://cracknuts.io/en/blog/2024/08/11/the-first-debut-in-chengdu"/>
+        <updated>2024-08-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Some thing in Chengdu.]]></summary>
+        <content type="html"><![CDATA[<p>Some thing in Chengdu.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why create CrackNuts!]]></title>
+        <id>https://cracknuts.io/en/blog/2024/07/01/why-create-cracknuts</id>
+        <link href="https://cracknuts.io/en/blog/2024/07/01/why-create-cracknuts"/>
+        <updated>2024-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The challenges in side-channel analysis work]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-challenges-in-side-channel-analysis-work">The challenges in side-channel analysis work<a href="https://cracknuts.io/en/blog/2024/07/01/why-create-cracknuts#the-challenges-in-side-channel-analysis-work" class="hash-link" aria-label="Direct link to The challenges in side-channel analysis work" title="Direct link to The challenges in side-channel analysis work">​</a></h2>
+<p>SOME THINGS.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-problems-our-team-aims-to-solve">The problems our team aims to solve<a href="https://cracknuts.io/en/blog/2024/07/01/why-create-cracknuts#the-problems-our-team-aims-to-solve" class="hash-link" aria-label="Direct link to The problems our team aims to solve" title="Direct link to The problems our team aims to solve">​</a></h2>
+<p>SOME THINGS.</p>]]></content>
+        <author>
+            <name>Ding zibiao</name>
+            <uri>https://github.com/dingzb</uri>
+        </author>
+    </entry>
+</feed>
