@@ -1,0 +1,21 @@
+cracknuts.solver package
+========================
+
+Submodules
+----------
+
+cracknuts.solver.trace module
+-----------------------------
+
+.. automodule:: cracknuts.solver.trace
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: cracknuts.solver
+   :members:
+   :undoc-members:
+   :show-inheritance:

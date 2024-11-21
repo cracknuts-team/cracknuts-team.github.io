@@ -1,0 +1,33 @@
+cracknuts package
+=================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   cracknuts.acquisition
+   cracknuts.cracker
+   cracknuts.mock
+   cracknuts.solver
+   cracknuts.utils
+
+Submodules
+----------
+
+cracknuts.logger module
+-----------------------
+
+.. automodule:: cracknuts.logger
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: cracknuts
+   :members:
+   :undoc-members:
+   :show-inheritance:

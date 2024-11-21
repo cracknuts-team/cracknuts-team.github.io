@@ -1,0 +1,53 @@
+cracknuts.cracker package
+=========================
+
+Submodules
+----------
+
+cracknuts.cracker.basic\_cracker module
+---------------------------------------
+
+.. automodule:: cracknuts.cracker.basic_cracker
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cracknuts.cracker.cracker module
+--------------------------------
+
+.. automodule:: cracknuts.cracker.cracker
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cracknuts.cracker.operator module
+---------------------------------
+
+.. automodule:: cracknuts.cracker.operator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cracknuts.cracker.protocol module
+---------------------------------
+
+.. automodule:: cracknuts.cracker.protocol
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cracknuts.cracker.stateful\_cracker module
+------------------------------------------
+
+.. automodule:: cracknuts.cracker.stateful_cracker
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: cracknuts.cracker
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,29 @@
+cracknuts.mock package
+======================
+
+Submodules
+----------
+
+cracknuts.mock.mock\_cracker module
+-----------------------------------
+
+.. automodule:: cracknuts.mock.mock_cracker
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cracknuts.mock.mock\_operator module
+------------------------------------
+
+.. automodule:: cracknuts.mock.mock_operator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: cracknuts.mock
+   :members:
+   :undoc-members:
+   :show-inheritance:
