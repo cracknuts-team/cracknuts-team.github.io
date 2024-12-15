@@ -2,32 +2,71 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cracknuts.io/en/blog</id>
     <title>CrackNuts Blog</title>
-    <updated>2024-08-11T00:00:00.000Z</updated>
+    <updated>2024-07-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cracknuts.io/en/blog"/>
     <subtitle>CrackNuts Blog</subtitle>
     <icon>https://cracknuts.io/en/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[The first debut in Chengdu]]></title>
-        <id>https://cracknuts.io/en/blog/2024/08/11/the-first-debut-in-chengdu</id>
-        <link href="https://cracknuts.io/en/blog/2024/08/11/the-first-debut-in-chengdu"/>
-        <updated>2024-08-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Some thing in Chengdu.]]></summary>
-        <content type="html"><![CDATA[<p>Some thing in Chengdu.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why create CrackNuts!]]></title>
-        <id>https://cracknuts.io/en/blog/2024/07/01/why-create-cracknuts</id>
-        <link href="https://cracknuts.io/en/blog/2024/07/01/why-create-cracknuts"/>
+        <title type="html"><![CDATA[关于我们]]></title>
+        <id>https://cracknuts.io/en/blog/2024/07/01/about</id>
+        <link href="https://cracknuts.io/en/blog/2024/07/01/about"/>
         <updated>2024-07-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The challenges in side-channel analysis work]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-challenges-in-side-channel-analysis-work">The challenges in side-channel analysis work<a href="https://cracknuts.io/en/blog/2024/07/01/why-create-cracknuts#the-challenges-in-side-channel-analysis-work" class="hash-link" aria-label="Direct link to The challenges in side-channel analysis work" title="Direct link to The challenges in side-channel analysis work">​</a></h2>
-<p>SOME THINGS.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-problems-our-team-aims-to-solve">The problems our team aims to solve<a href="https://cracknuts.io/en/blog/2024/07/01/why-create-cracknuts#the-problems-our-team-aims-to-solve" class="hash-link" aria-label="Direct link to The problems our team aims to solve" title="Direct link to The problems our team aims to solve">​</a></h2>
-<p>SOME THINGS.</p>]]></content>
-        <author>
-            <name>Ding zibiao</name>
-            <uri>https://github.com/dingzb</uri>
-        </author>
+        <summary type="html"><![CDATA[安徽池芯新能源有限公司公司成立于2023年12月18日，由清华大学乌力吉教授创新创业团队创办，基于清华大学集成电路学院信息安全实验室积累，团队致力于打造关于硬件安全业内开源交流学习平台。]]></summary>
+        <content type="html"><![CDATA[<p>安徽池芯新能源有限公司公司成立于2023年12月18日，由清华大学乌力吉教授创新创业团队创办，基于清华大学集成电路学院信息安全实验室积累，团队致力于打造关于硬件安全业内开源交流学习平台。</p>
+<p>自创立之初便获得安徽政府数千万投资，公司专注于安全行业实验室配套设备与自主知识产权的车规芯片研发及销售，确保客户能以最优的性价比完成企业需求的搭建。</p>
+<p>公司主要相关业务方向包括如下内容：</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cracknuts-硬件安全分析平台">CrackNuts 硬件安全分析平台<a href="https://cracknuts.io/en/blog/2024/07/01/about#cracknuts-%E7%A1%AC%E4%BB%B6%E5%AE%89%E5%85%A8%E5%88%86%E6%9E%90%E5%B9%B3%E5%8F%B0" class="hash-link" aria-label="Direct link to CrackNuts 硬件安全分析平台" title="Direct link to CrackNuts 硬件安全分析平台">​</a></h2>
+<p>发源于清华大学集成电路学院乌力吉教授团队的信息安全开源平台。旨在为教师、学生、安全从业人员提供专业、易用、价格低廉的芯片安全分析工具，提供一个科研和技术交流平台，共同促进芯片安全技术发展。</p>
+<p>CrackNuts硬件安全分析平台（开源平台）主要针对有硬件安全性检测需求的应用场景，旨在为企业研发/测试工程师、教师、学生、安全从业人员提供专业、易用、价格低廉的芯片安全分析工具，提供一个科研和技术交流平台，共同促进芯片安全技术发展。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="开源理念">开源理念：<a href="https://cracknuts.io/en/blog/2024/07/01/about#%E5%BC%80%E6%BA%90%E7%90%86%E5%BF%B5" class="hash-link" aria-label="Direct link to 开源理念：" title="Direct link to 开源理念：">​</a></h3>
+<p>从根本上改变芯片安全的生态系统，让所有工程师都更容易获取或实现侧信道功率分析和故障攻击的理论和实践案例。任何人都可以免费的构建和使用它。</p>
+<p><img decoding="async" loading="lazy" alt="image-20241215085952518" src="https://cracknuts.io/en/assets/images/image-20241215085952518-7b9b43e85bf962837735700d6169098a.png" width="742" height="527" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="辅助硬件cracker-s1">辅助硬件（Cracker S1）：<a href="https://cracknuts.io/en/blog/2024/07/01/about#%E8%BE%85%E5%8A%A9%E7%A1%AC%E4%BB%B6cracker-s1" class="hash-link" aria-label="Direct link to 辅助硬件（Cracker S1）：" title="Direct link to 辅助硬件（Cracker S1）：">​</a></h3>
+<p><img decoding="async" loading="lazy" alt="image-20241215090131261" src="https://cracknuts.io/en/assets/images/image-20241215090131261-798d6baac6d957c55522af596483bb9d.png" width="878" height="606" class="img_ev3q"></p>
+<p>为保护我们的客户能更好的使用我们的服务，需要您从官方申请或采购CrackNuts硬件设备，是经过彻底的内测设备，支持运行CrackNuts相关开源软件进行开发。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="硬件主要指标cracker-s1">硬件主要指标（Cracker S1）：<a href="https://cracknuts.io/en/blog/2024/07/01/about#%E7%A1%AC%E4%BB%B6%E4%B8%BB%E8%A6%81%E6%8C%87%E6%A0%87cracker-s1" class="hash-link" aria-label="Direct link to 硬件主要指标（Cracker S1）：" title="Direct link to 硬件主要指标（Cracker S1）：">​</a></h3>
+<p>Cracker S1是一款针对物联网芯片的开源侧信道安全测试设备，支持多种通信接口，对外提供高质量功耗信号输出功能，同时，设备集成了高精度功耗采集电路和时钟控制电路，可实现测试对象（TOE）功耗信号的同步采样功能，设备提供Python API上位机控制接口。</p>
+<ul>
+<li>
+<p>TOE通信接口</p>
+<ul>
+<li>UART</li>
+<li>SPI</li>
+<li>I2C</li>
+<li>CAN</li>
+<li>时钟接口</li>
+<li>支持TOE更换和定制开发</li>
+</ul>
+</li>
+<li>
+<p>TOE供电电压功能</p>
+<ul>
+<li>可调低噪音供电电路</li>
+<li>常用电压3.3V，调节范围2.0-4.5V，步进0.1V</li>
+</ul>
+</li>
+<li>
+<p>信号采集功能</p>
+<ul>
+<li>板载高信噪比功耗采集电路</li>
+<li>最大采样率62.5M Samples/S</li>
+<li>分辨率 12bit</li>
+<li>双通道，1路固定采集TOE功耗信号，1路可外接电磁探头采集电磁信号。</li>
+<li>双通道均支持动态增益调节功能，充分利用ADC分辨率</li>
+<li>支持TOE时钟、采样时钟关联调节，TOE时钟和采样时钟采用同源晶振，通过频率和相位调节实现高精度同步采样</li>
+</ul>
+</li>
+<li>
+<p>上位机接口</p>
+<ul>
+<li>千兆以太网</li>
+<li>Python API</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="平台案例-实现aes算法的-cpa示例分析">平台案例-实现AES算法的 CPA示例分析：<a href="https://cracknuts.io/en/blog/2024/07/01/about#%E5%B9%B3%E5%8F%B0%E6%A1%88%E4%BE%8B-%E5%AE%9E%E7%8E%B0aes%E7%AE%97%E6%B3%95%E7%9A%84-cpa%E7%A4%BA%E4%BE%8B%E5%88%86%E6%9E%90" class="hash-link" aria-label="Direct link to 平台案例-实现AES算法的 CPA示例分析：" title="Direct link to 平台案例-实现AES算法的 CPA示例分析：">​</a></h3>
+<p>这里给出一个对软件实现的AES算法进行CPA分析的例子。例子中的AES算法运行于STM32F1，使用的是MBEDTLS的查小表实现。对于采集到的能量迹，我们使用 ZARN格式储存。</p>
+<p>以下展示内容是Cracker S1操作软件平台直接导出内容，使用者可根据自己需求进行交流使用。</p>]]></content>
     </entry>
 </feed>
