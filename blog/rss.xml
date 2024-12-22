@@ -9,66 +9,33 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
         <item>
-            <title><![CDATA[关于我们]]></title>
+            <title><![CDATA[公司介绍]]></title>
             <link>https://cracknuts.io/blog/2024/07/01/about</link>
             <guid>https://cracknuts.io/blog/2024/07/01/about</guid>
             <pubDate>Mon, 01 Jul 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[安徽池芯新能源有限公司公司成立于2023年12月18日，由清华大学乌力吉教授创新创业团队创办，基于清华大学集成电路学院信息安全实验室积累，团队致力于打造关于硬件安全业内开源交流学习平台。]]></description>
-            <content:encoded><![CDATA[<p>安徽池芯新能源有限公司公司成立于2023年12月18日，由清华大学乌力吉教授创新创业团队创办，基于清华大学集成电路学院信息安全实验室积累，团队致力于打造关于硬件安全业内开源交流学习平台。</p>
-<p>自创立之初便获得安徽政府数千万投资，公司专注于安全行业实验室配套设备与自主知识产权的车规芯片研发及销售，确保客户能以最优的性价比完成企业需求的搭建。</p>
-<p>公司主要相关业务方向包括如下内容：</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cracknuts-硬件安全分析平台">CrackNuts 硬件安全分析平台<a href="https://cracknuts.io/blog/2024/07/01/about#cracknuts-%E7%A1%AC%E4%BB%B6%E5%AE%89%E5%85%A8%E5%88%86%E6%9E%90%E5%B9%B3%E5%8F%B0" class="hash-link" aria-label="CrackNuts 硬件安全分析平台的直接链接" title="CrackNuts 硬件安全分析平台的直接链接">​</a></h2>
-<p>发源于清华大学集成电路学院乌力吉教授团队的信息安全开源平台。旨在为教师、学生、安全从业人员提供专业、易用、价格低廉的芯片安全分析工具，提供一个科研和技术交流平台，共同促进芯片安全技术发展。</p>
-<p>CrackNuts硬件安全分析平台（开源平台）主要针对有硬件安全性检测需求的应用场景，旨在为企业研发/测试工程师、教师、学生、安全从业人员提供专业、易用、价格低廉的芯片安全分析工具，提供一个科研和技术交流平台，共同促进芯片安全技术发展。</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="开源理念">开源理念：<a href="https://cracknuts.io/blog/2024/07/01/about#%E5%BC%80%E6%BA%90%E7%90%86%E5%BF%B5" class="hash-link" aria-label="开源理念：的直接链接" title="开源理念：的直接链接">​</a></h3>
-<p>从根本上改变芯片安全的生态系统，让所有工程师都更容易获取或实现侧信道功率分析和故障攻击的理论和实践案例。任何人都可以免费的构建和使用它。</p>
-<p><img decoding="async" loading="lazy" alt="image-20241215085952518" src="https://cracknuts.io/assets/images/image-20241215085952518-7b9b43e85bf962837735700d6169098a.png" width="742" height="527" class="img_ev3q"></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="辅助硬件cracker-s1">辅助硬件（Cracker S1）：<a href="https://cracknuts.io/blog/2024/07/01/about#%E8%BE%85%E5%8A%A9%E7%A1%AC%E4%BB%B6cracker-s1" class="hash-link" aria-label="辅助硬件（Cracker S1）：的直接链接" title="辅助硬件（Cracker S1）：的直接链接">​</a></h3>
-<p><img decoding="async" loading="lazy" alt="image-20241215090131261" src="https://cracknuts.io/assets/images/image-20241215090131261-798d6baac6d957c55522af596483bb9d.png" width="878" height="606" class="img_ev3q"></p>
-<p>为保护我们的客户能更好的使用我们的服务，需要您从官方申请或采购CrackNuts硬件设备，是经过彻底的内测设备，支持运行CrackNuts相关开源软件进行开发。</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="硬件主要指标cracker-s1">硬件主要指标（Cracker S1）：<a href="https://cracknuts.io/blog/2024/07/01/about#%E7%A1%AC%E4%BB%B6%E4%B8%BB%E8%A6%81%E6%8C%87%E6%A0%87cracker-s1" class="hash-link" aria-label="硬件主要指标（Cracker S1）：的直接链接" title="硬件主要指标（Cracker S1）：的直接链接">​</a></h3>
-<p>Cracker S1是一款针对物联网芯片的开源侧信道安全测试设备，支持多种通信接口，对外提供高质量功耗信号输出功能，同时，设备集成了高精度功耗采集电路和时钟控制电路，可实现测试对象（TOE）功耗信号的同步采样功能，设备提供Python API上位机控制接口。</p>
-<ul>
-<li>
-<p>TOE通信接口</p>
-<ul>
-<li>UART</li>
-<li>SPI</li>
-<li>I2C</li>
-<li>CAN</li>
-<li>时钟接口</li>
-<li>支持TOE更换和定制开发</li>
-</ul>
-</li>
-<li>
-<p>TOE供电电压功能</p>
-<ul>
-<li>可调低噪音供电电路</li>
-<li>常用电压3.3V，调节范围2.0-4.5V，步进0.1V</li>
-</ul>
-</li>
-<li>
-<p>信号采集功能</p>
-<ul>
-<li>板载高信噪比功耗采集电路</li>
-<li>最大采样率62.5M Samples/S</li>
-<li>分辨率 12bit</li>
-<li>双通道，1路固定采集TOE功耗信号，1路可外接电磁探头采集电磁信号。</li>
-<li>双通道均支持动态增益调节功能，充分利用ADC分辨率</li>
-<li>支持TOE时钟、采样时钟关联调节，TOE时钟和采样时钟采用同源晶振，通过频率和相位调节实现高精度同步采样</li>
-</ul>
-</li>
-<li>
-<p>上位机接口</p>
-<ul>
-<li>千兆以太网</li>
-<li>Python API</li>
-</ul>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="平台案例-实现aes算法的-cpa示例分析">平台案例-实现AES算法的 CPA示例分析：<a href="https://cracknuts.io/blog/2024/07/01/about#%E5%B9%B3%E5%8F%B0%E6%A1%88%E4%BE%8B-%E5%AE%9E%E7%8E%B0aes%E7%AE%97%E6%B3%95%E7%9A%84-cpa%E7%A4%BA%E4%BE%8B%E5%88%86%E6%9E%90" class="hash-link" aria-label="平台案例-实现AES算法的 CPA示例分析：的直接链接" title="平台案例-实现AES算法的 CPA示例分析：的直接链接">​</a></h3>
-<p>这里给出一个对软件实现的AES算法进行CPA分析的例子。例子中的AES算法运行于STM32F1，使用的是MBEDTLS的查小表实现。对于采集到的能量迹，我们使用 ZARN格式储存。</p>
-<p>以下展示内容是Cracker S1操作软件平台直接导出内容，使用者可根据自己需求进行交流使用。</p>]]></content:encoded>
+            <description><![CDATA[img]]></description>
+            <content:encoded><![CDATA[<p><strong><img decoding="async" loading="lazy" alt="img" src="https://cracknuts.io/assets/images/clip_image002-6194022739621c1a063e4ca3135e1127.png" width="694" height="604" class="img_ev3q"></strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="理念">理念<a href="https://cracknuts.io/blog/2024/07/01/about#%E7%90%86%E5%BF%B5" class="hash-link" aria-label="理念的直接链接" title="理念的直接链接">​</a></h2>
+<p>“以密会友，开源共享”</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="专注方向">专注方向<a href="https://cracknuts.io/blog/2024/07/01/about#%E4%B8%93%E6%B3%A8%E6%96%B9%E5%90%91" class="hash-link" aria-label="专注方向的直接链接" title="专注方向的直接链接">​</a></h2>
+<p>密码硬件的侧信道安全性分析</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="发展目标">发展目标<a href="https://cracknuts.io/blog/2024/07/01/about#%E5%8F%91%E5%B1%95%E7%9B%AE%E6%A0%87" class="hash-link" aria-label="发展目标的直接链接" title="发展目标的直接链接">​</a></h2>
+<p>提升硬件安全性分析效率，降低安全性分析成本</p>
+<p>打造密码硬件安全分析技术的开源平台，便于科研人员、从业者参与学习和交流，使得不同技术水平的硬件安全分析兴趣爱好者可以获取对应的理论及实践支撑，共同促进密码硬件安全分析领域的高速发展。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="团队历史">团队历史<a href="https://cracknuts.io/blog/2024/07/01/about#%E5%9B%A2%E9%98%9F%E5%8E%86%E5%8F%B2" class="hash-link" aria-label="团队历史的直接链接" title="团队历史的直接链接">​</a></h2>
+<p>北京湃瑞微科技有限公司，由清华大学乌力吉教授领衔的创新创业团队投资建立，依托清华大学集成电路学院信息安全实验室在密码硬件侧信道分析领域的深厚积淀。公司汇聚了一批顶尖专家团队，致力于为您提供全方位的硬件安全一站式解决服务，助您轻松应对各种安全性分析挑战。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="已有积累">已有积累<a href="https://cracknuts.io/blog/2024/07/01/about#%E5%B7%B2%E6%9C%89%E7%A7%AF%E7%B4%AF" class="hash-link" aria-label="已有积累的直接链接" title="已有积累的直接链接">​</a></h2>
+<p>① 典型公共领域安全贡献</p>
+<p>团队曾成功破解某市公交一卡通芯片（黑盒攻击），为公共领域的信息安全做出突出贡献。</p>
+<p>② 参与制定芯片安全性国家标准</p>
+<p>团队核心成员作为主要起草人，参与制定了芯片安全国标 GB/T 22186—2016。</p>
+<p>③ 高水平学术论文</p>
+<p>共计发表高质量论文（TIFS、TVLSI、TCAD、TC等）百余篇。</p>
+<p>④ 社会责任</p>
+<p>团队核心成员担任国际密码硬件与嵌入式系统学术顶会CHES 2021大会主席，并将担任CHES 2025大会主席。</p>
+<p>承办2017年度中国密码学会密码测评专委会学术年会。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="团队组成">团队组成<a href="https://cracknuts.io/blog/2024/07/01/about#%E5%9B%A2%E9%98%9F%E7%BB%84%E6%88%90" class="hash-link" aria-label="团队组成的直接链接" title="团队组成的直接链接">​</a></h2>
+<p>开发团队为本行业资深专家，人均具有10年以上从业经验，拥有海内外名校的密码学、信息安全、微电子学等专业教育背景。</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
