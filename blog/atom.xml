@@ -12,28 +12,28 @@
         <id>https://cracknuts.io/blog/2024/07/01/about</id>
         <link href="https://cracknuts.io/blog/2024/07/01/about"/>
         <updated>2024-07-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[img]]></summary>
-        <content type="html"><![CDATA[<p><strong><img decoding="async" loading="lazy" alt="img" src="https://cracknuts.io/assets/images/clip_image002-6194022739621c1a063e4ca3135e1127.png" width="694" height="604" class="img_ev3q"></strong></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="理念">理念<a href="https://cracknuts.io/blog/2024/07/01/about#%E7%90%86%E5%BF%B5" class="hash-link" aria-label="理念的直接链接" title="理念的直接链接">​</a></h2>
-<p>“以密会友，开源共享”</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="专注方向">专注方向<a href="https://cracknuts.io/blog/2024/07/01/about#%E4%B8%93%E6%B3%A8%E6%96%B9%E5%90%91" class="hash-link" aria-label="专注方向的直接链接" title="专注方向的直接链接">​</a></h2>
-<p>密码硬件的侧信道安全性分析</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="发展目标">发展目标<a href="https://cracknuts.io/blog/2024/07/01/about#%E5%8F%91%E5%B1%95%E7%9B%AE%E6%A0%87" class="hash-link" aria-label="发展目标的直接链接" title="发展目标的直接链接">​</a></h2>
-<p>提升硬件安全性分析效率，降低安全性分析成本</p>
-<p>打造密码硬件安全分析技术的开源平台，便于科研人员、从业者参与学习和交流，使得不同技术水平的硬件安全分析兴趣爱好者可以获取对应的理论及实践支撑，共同促进密码硬件安全分析领域的高速发展。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="团队历史">团队历史<a href="https://cracknuts.io/blog/2024/07/01/about#%E5%9B%A2%E9%98%9F%E5%8E%86%E5%8F%B2" class="hash-link" aria-label="团队历史的直接链接" title="团队历史的直接链接">​</a></h2>
-<p>北京湃瑞微科技有限公司，由清华大学乌力吉教授领衔的创新创业团队投资建立，依托清华大学集成电路学院信息安全实验室在密码硬件侧信道分析领域的深厚积淀。公司汇聚了一批顶尖专家团队，致力于为您提供全方位的硬件安全一站式解决服务，助您轻松应对各种安全性分析挑战。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="已有积累">已有积累<a href="https://cracknuts.io/blog/2024/07/01/about#%E5%B7%B2%E6%9C%89%E7%A7%AF%E7%B4%AF" class="hash-link" aria-label="已有积累的直接链接" title="已有积累的直接链接">​</a></h2>
-<p>① 典型公共领域安全贡献</p>
-<p>团队曾成功破解某市公交一卡通芯片（黑盒攻击），为公共领域的信息安全做出突出贡献。</p>
-<p>② 参与制定芯片安全性国家标准</p>
-<p>团队核心成员作为主要起草人，参与制定了芯片安全国标 GB/T 22186—2016。</p>
-<p>③ 高水平学术论文</p>
-<p>共计发表高质量论文（TIFS、TVLSI、TCAD、TC等）百余篇。</p>
-<p>④ 社会责任</p>
-<p>团队核心成员担任国际密码硬件与嵌入式系统学术顶会CHES 2021大会主席，并将担任CHES 2025大会主席。</p>
-<p>承办2017年度中国密码学会密码测评专委会学术年会。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="团队组成">团队组成<a href="https://cracknuts.io/blog/2024/07/01/about#%E5%9B%A2%E9%98%9F%E7%BB%84%E6%88%90" class="hash-link" aria-label="团队组成的直接链接" title="团队组成的直接链接">​</a></h2>
-<p>开发团队为本行业资深专家，人均具有10年以上从业经验，拥有海内外名校的密码学、信息安全、微电子学等专业教育背景。</p>]]></content>
+        <summary type="html"><![CDATA[理念]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" src="https://cracknuts.io/assets/images/posters-e5014f626298d763dcff33a93ae3de31.png" width="802" height="698" class="img_ev3q"></p>
+<p><strong>理念</strong><br>
+“以密会友，开源共享”</p>
+<p><strong>专注方向</strong><br>
+密码硬件的侧信道安全性分析</p>
+<p><strong>发展目标</strong><br>
+提升硬件安全性分析效率，降低安全性分析成本，打造密码硬件安全分析技术的开源平台，便于科研人员、从业者参与学习和交流，使得不同技术水平的硬件安全分析兴趣爱好者可以获取对应的理论及实践支撑，共同促进密码硬件安全分析领域的高速发展。</p>
+<p><strong>团队历史</strong><br>
+北京湃瑞微科技有限公司，由清华大学乌力吉教授领衔的创新创业团队投资建立，依托清华大学集成电路学院信息安全实验室在密码硬件侧信道分析领域的深厚积淀。公司汇聚了一批顶尖专家团队，致力于为您提供全方位的硬件安全一站式解决服务，助您轻松应对各种安全性分析挑战。</p>
+<p><strong>已有积累</strong></p>
+<ul>
+<li>典型公共领域安全贡献
+团队曾成功破解某市公交一卡通芯片（黑盒攻击），为公共领域的信息安全做出突出贡献。</li>
+<li>参与制定芯片安全性国家标准
+团队核心成员作为主要起草人，参与制定了芯片安全国标 GB/T 22186—2016。</li>
+<li>高水平学术论文
+共计发表高质量论文（TIFS、TVLSI、TCAD、TC等）百余篇。</li>
+</ul>
+<p><strong>社会责任</strong><br>
+团队核心成员担任国际密码硬件与嵌入式系统学术顶会CHES 2021大会主席，并将担任CHES 2025大会主席。承办2017年度中国密码学会密码测评专委会学术年会。</p>
+<p><strong>团队组成</strong><br>
+开发团队为本行业资深专家，人均具有10年以上从业经验，拥有海内外名校的密码学、信息安全、微电子学等专业教育背景。</p>]]></content>
     </entry>
 </feed>
