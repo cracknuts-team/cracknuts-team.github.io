@@ -4,10 +4,22 @@
         <title>CrackNuts Blog</title>
         <link>https://cracknuts.io/en/blog</link>
         <description>CrackNuts Blog</description>
-        <lastBuildDate>Tue, 02 Jul 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 12 Mar 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Python Virtual Environment]]></title>
+            <link>https://cracknuts.io/en/blog/2025/03/12/virtual-environment</link>
+            <guid>https://cracknuts.io/en/blog/2025/03/12/virtual-environment</guid>
+            <pubDate>Wed, 12 Mar 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[pip-mirror]]></title>
+            <link>https://cracknuts.io/en/blog/2025/02/28/pip-mirror</link>
+            <guid>https://cracknuts.io/en/blog/2025/02/28/pip-mirror</guid>
+            <pubDate>Fri, 28 Feb 2025 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[公司介绍]]></title>
             <link>https://cracknuts.io/en/blog/2024/07/02/about</link>
