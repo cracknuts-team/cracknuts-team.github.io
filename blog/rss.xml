@@ -4,10 +4,36 @@
         <title>CrackNuts Blog</title>
         <link>https://cracknuts.io/blog</link>
         <description>CrackNuts Blog</description>
-        <lastBuildDate>Tue, 25 Mar 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 02 Apr 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[SCARR 安装]]></title>
+            <link>https://cracknuts.io/blog/2025/04/02/install-scarr</link>
+            <guid>https://cracknuts.io/blog/2025/04/02/install-scarr</guid>
+            <pubDate>Wed, 02 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[SCARR是 CrackNuts 进行数据分析时的默认框架，同时也是曲线采集的默认格式（基于 Zarr 的特定目录结构）。建议在进行数据分析时安装 SCARR。]]></description>
+            <content:encoded><![CDATA[<p><a href="https://github.com/decryptofy/scarr" target="_blank" rel="noopener noreferrer">SCARR</a>是 CrackNuts 进行数据分析时的默认框架，同时也是曲线采集的默认格式（基于 Zarr 的特定目录结构）。建议在进行数据分析时安装 SCARR。</p>
+<p>CrackNuts 组织已 Fork 该仓库，并将在其基础上进行代码改进，同时计划将相关功能合并至主仓库。为了使用 CrackNuts 最新的数据分析功能，推荐用户优先使用 CrackNuts 组织维护的 SCARR 版本。</p>
+<ol>
+<li>
+<p>直接通过git仓库进行安装</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">pip install "git+https://github.com/cracknuts-team/scarr.git"</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>如果在国内网络下，不能下载可尝试如下方式：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">pip install "git+ssh://git@github.com:cracknuts-team/scarr.git"</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>
+<p>代码下载到本都后进行安装</p>
+<p>可以通过<code>GitHub</code>下载zip格式的仓库代码到本地：</p>
+<p><img decoding="async" loading="lazy" alt="alt text" src="https://cracknuts.io/assets/images/1743586144147-cef65952712b7a7fa6c9d59c8a6b0c28.png" width="1060" height="496" class="img_ev3q"></p>
+<p>下载后，解压，进入该目录，执行如下命令进行安装：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">pip install .</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>或者通过git克隆代码到本地后，进入目录同样执行上面的命令进行安装。</p>
+<p>安装成功后，进行python，执行<code>import scarr</code>没有报错就表示安装成功。</p>
+</li>
+</ol>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Nut_stm32f103c8侧信道分析]]></title>
             <link>https://cracknuts.io/blog/2025/03/25/stm32f103_sca</link>
@@ -241,7 +267,7 @@
 <ul>
 <li>
 <p>阿里镜像（推荐）</p>
-<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">pip config set global.index-url https://mirrors.aliyun.com/pypi/simple</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pip config set install.trusted-host mirrors.aliyun.com</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制��代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">pip config set global.index-url https://mirrors.aliyun.com/pypi/simple</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pip config set install.trusted-host mirrors.aliyun.com</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 </li>
 <li>
 <p>清华镜像（暂时不推荐，镜像仓库没有同步<code>cracknuts</code>库）</p>
