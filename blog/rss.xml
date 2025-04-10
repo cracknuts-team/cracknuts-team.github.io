@@ -20,9 +20,8 @@
 <p>STM32CubeIDE 是由意法半导体（STMicroelectronics）开发的一款针对 <strong>STM32 系列微控制器</strong>的集成开发环境（IDE）。它基于 <strong>Eclipse 框架</strong>，集成了代码编写、编译、调试、配置等功能，旨在简化 STM32 微控制器的开发流程。</p>
 <p>在本项目中可以对Nuts（被测对象）进行编辑，用于分析不同模式下的信息状态。</p>
 <h4 class="anchor anchorWithStickyNavbar_Fy01" id="12程序下载安装">1.2程序下载安装<a href="https://cracknuts.io/blog/2025/04/10/nut-getting-started#12%E7%A8%8B%E5%BA%8F%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85" class="hash-link" aria-label="1.2程序下载安装的直接链接" title="1.2程序下载安装的直接链接">​</a></h4>
-<p>STM32CubeIDE官方下载地址：<a href="https://cracknuts.io/blog/2025/04/10/nut-getting-started#st-get-software">STM32CubeIDE：多操作系统开发工具 - 意法半导体STMicroelectronics</a>；</p>
+<p>STM32CubeIDE官方下载地址：<a href="https://www.st.com.cn/content/st_com/zh/stm32cubeide.html/1000#" target="_blank" rel="noopener noreferrer">STM32CubeIDE：多操作系统开发工具 - 意法半导体STMicroelectronics</a>；</p>
 <p><img decoding="async" loading="lazy" alt="img" src="https://cracknuts.io/assets/images/wps2-797e97981d3ae58cdc91d8b662f9807f.jpg" width="554" height="88" class="img_ntm8"></p>
-<p>{/* truncate */}</p>
 <p><strong>以windows为示例</strong></p>
 <p>本项目使用版本号为：STM32CubeIDE 1.16.1，安装包大小（1GB），下载时间约（10min）根据网速不同时间会有偏差。</p>
 <p><img decoding="async" loading="lazy" alt="img" src="https://cracknuts.io/assets/images/wps3-8f922b3067316730f18ff09714e8bc22.jpg" width="366" height="284" class="img_ntm8"></p>
@@ -55,10 +54,7 @@
 <h2 class="anchor anchorWithStickyNavbar_Fy01" id="第二步工程建立与导入">第二步.工程建立与导入<a href="https://cracknuts.io/blog/2025/04/10/nut-getting-started#%E7%AC%AC%E4%BA%8C%E6%AD%A5%E5%B7%A5%E7%A8%8B%E5%BB%BA%E7%AB%8B%E4%B8%8E%E5%AF%BC%E5%85%A5" class="hash-link" aria-label="第二步.工程建立与导入的直接链接" title="第二步.工程建立与导入的直接链接">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_Fy01" id="1开启git-cmd程序并输入命令进行代码库的克隆">1.开启Git CMD程序并输入命令进行代码库的克隆<a href="https://cracknuts.io/blog/2025/04/10/nut-getting-started#1%E5%BC%80%E5%90%AFgit-cmd%E7%A8%8B%E5%BA%8F%E5%B9%B6%E8%BE%93%E5%85%A5%E5%91%BD%E4%BB%A4%E8%BF%9B%E8%A1%8C%E4%BB%A3%E7%A0%81%E5%BA%93%E7%9A%84%E5%85%8B%E9%9A%86" class="hash-link" aria-label="1.开启Git CMD程序并输入命令进行代码库的克隆的直接链接" title="1.开启Git CMD程序并输入命令进行代码库的克隆的直接链接">​</a></h3>
 <div class="codeBlockContainer_JVOB theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_jO8k"><pre tabindex="0" class="prism-code language-text codeBlock_Iofn thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_SwNd"><span class="token-line" style="color:#393A34"><span class="token plain">gitclone--recurse-submodules https://github.com/cracknuts-team/nut_st_workspace.git</span><br></span></code></pre><div class="buttonGroup_U4GQ"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_Tqjo" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_mOcy"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_L28Z"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<blockquote>
-<p>[!NOTE]</p>
-<p>注意此操作已将nut_st_workspace指定为执行仓库</p>
-</blockquote>
+<div class="theme-admonition theme-admonition-note admonition_EKBE alert alert--secondary"><div class="admonitionHeading_SCHE"><span class="admonitionIcon_xe83"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>备注</div><div class="admonitionContent_OKH5"><p>注意此操作已将nut_st_workspace指定为执行仓库</p></div></div>
 <p><img decoding="async" loading="lazy" src="https://cracknuts.io/assets/images/image-20250410085525107-1744246527354-15-1744248011781-18-ae76977cdd44cfa5c5c60e6212788ff6.png" width="548" height="308" class="img_ntm8"></p>
 <h3 class="anchor anchorWithStickyNavbar_Fy01" id="2运行stm32cubeide软件">2.运行STM32CubeIDE软件<a href="https://cracknuts.io/blog/2025/04/10/nut-getting-started#2%E8%BF%90%E8%A1%8Cstm32cubeide%E8%BD%AF%E4%BB%B6" class="hash-link" aria-label="2.运行STM32CubeIDE软件的直接链接" title="2.运行STM32CubeIDE软件的直接链接">​</a></h3>
 <p><img decoding="async" loading="lazy" src="https://cracknuts.io/assets/images/image-20250410085539446-1744246542347-17-1744248015476-20-a6e386d5b876bd1d50b57fc28407c1ae.png" width="549" height="311" class="img_ntm8"></p>
@@ -76,50 +72,29 @@
 <p><img decoding="async" loading="lazy" alt="img" src="https://cracknuts.io/assets/images/wps22-30802dd37f383bce83551c2ba59336c9.jpg" width="458" height="337" class="img_ntm8"></p>
 <p><strong>检查确认Src路径配置</strong></p>
 <p><img decoding="async" loading="lazy" alt="img" src="https://cracknuts.io/assets/images/wps23-162234960e4199d877f157defde92839.jpg" width="461" height="339" class="img_ntm8"></p>
-<blockquote>
-<p>[!TIP]</p>
-<p><strong>上述步骤检查确认即可</strong></p>
-</blockquote>
+<div class="theme-admonition theme-admonition-tip admonition_EKBE alert alert--success"><div class="admonitionHeading_SCHE"><span class="admonitionIcon_xe83"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>提示</div><div class="admonitionContent_OKH5"><p><strong>上述步骤检查确认即可</strong></p></div></div>
 <h2 class="anchor anchorWithStickyNavbar_Fy01" id="第三步硬件准备">第三步.硬件准备<a href="https://cracknuts.io/blog/2025/04/10/nut-getting-started#%E7%AC%AC%E4%B8%89%E6%AD%A5%E7%A1%AC%E4%BB%B6%E5%87%86%E5%A4%87" class="hash-link" aria-label="第三步.硬件准备的直接链接" title="第三步.硬件准备的直接链接">​</a></h2>
-<blockquote>
-<p>[!IMPORTANT]</p>
-<p><strong>Nut板</strong>、<strong>ST-LINK编译器</strong></p>
-</blockquote>
+<div class="theme-admonition theme-admonition-important admonition_EKBE alert alert--info"><div class="admonitionHeading_SCHE"><span class="admonitionIcon_xe83"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>important</div><div class="admonitionContent_OKH5"><p><strong>Nut板</strong>、<strong>ST-LINK编译器</strong></p></div></div>
 <p>将Nut板与ST-LINK编译器进行连接，<strong>SWCLK</strong>对应连接<strong>DCK</strong> 、<strong>SWDIO</strong>对应连接<strong>DIO</strong> 、<strong>GND</strong>对应连接<strong>GND</strong> 、<strong>3.3V</strong>对应连接<strong>VCC</strong>。</p>
 <p><img decoding="async" loading="lazy" alt="img" src="https://cracknuts.io/assets/images/wps24-3f234b03c3853cfac627decda6b5c6df.jpg" width="266" height="339" class="img_ntm8"></p>
-<blockquote>
-<p>[!NOTE]</p>
-<p>依次对应卡针后将USB口插入PC机，以备下一步使用。</p>
-</blockquote>
+<div class="theme-admonition theme-admonition-note admonition_EKBE alert alert--secondary"><div class="admonitionHeading_SCHE"><span class="admonitionIcon_xe83"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>备注</div><div class="admonitionContent_OKH5"><p>依次对应卡针后将USB口插入PC机，以备下一步使用。</p></div></div>
 <h2 class="anchor anchorWithStickyNavbar_Fy01" id="第四步编译及烧录">第四步.编译及烧录<a href="https://cracknuts.io/blog/2025/04/10/nut-getting-started#%E7%AC%AC%E5%9B%9B%E6%AD%A5%E7%BC%96%E8%AF%91%E5%8F%8A%E7%83%A7%E5%BD%95" class="hash-link" aria-label="第四步.编译及烧录的直接链接" title="第四步.编译及烧录的直接链接">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_Fy01" id="1工程编译">1.工程编译<a href="https://cracknuts.io/blog/2025/04/10/nut-getting-started#1%E5%B7%A5%E7%A8%8B%E7%BC%96%E8%AF%91" class="hash-link" aria-label="1.工程编译的直接链接" title="1.工程编译的直接链接">​</a></h3>
 <p>运行STM32CubeIDE程序选择对应需要编译的工程，图示为STM32F103C8芯片对应工程。</p>
 <p><img decoding="async" loading="lazy" alt="img" src="https://cracknuts.io/assets/images/wps25-17e2ec6e0417c65620b2af1a97baf9bb.jpg" width="392" height="455" class="img_ntm8"></p>
-<blockquote>
-<p>[!IMPORTANT]</p>
-<p>Run AS运行后-确保没有编译错误，软件底侧窗口出现下图状态表明正常</p>
-</blockquote>
+<div class="theme-admonition theme-admonition-important admonition_EKBE alert alert--info"><div class="admonitionHeading_SCHE"><span class="admonitionIcon_xe83"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>important</div><div class="admonitionContent_OKH5"><p>Run AS运行后-确保没有编译错误，软件底侧窗口出现下图状态表明正常</p></div></div>
 <p><img decoding="async" loading="lazy" src="https://cracknuts.io/assets/images/image-20250410085901313-1744246743478-35-1744246745896-37-1744246748192-39-1744248044006-34-d396f2d4067d4d6cb1fecc151d016edd.png" width="506" height="181" class="img_ntm8"></p>
 <p><img decoding="async" loading="lazy" src="https://cracknuts.io/assets/images/image-20250410085848583-1744246730477-33-1744248046736-36-5460dc6f7e78b9854cf0e8f879154105.png" width="505" height="614" class="img_ntm8"></p>
 <p><img decoding="async" loading="lazy" alt="img" src="https://cracknuts.io/assets/images/wps28-e760dceab3e1d3f3fdb766fe5a2ae5d1.jpg" width="554" height="196" class="img_ntm8"></p>
 <p><img decoding="async" loading="lazy" alt="img" src="https://cracknuts.io/assets/images/wps29-0917569a1887be44727a7fe1810b3169.jpg" width="554" height="592" class="img_ntm8"></p>
-<blockquote>
-<p>[!CAUTION]</p>
-<p>查看生成.hex文件</p>
-</blockquote>
+<div><p>查看生成.hex文件</p></div>
 <h3 class="anchor anchorWithStickyNavbar_Fy01" id="2nut烧录">2.Nut烧录<a href="https://cracknuts.io/blog/2025/04/10/nut-getting-started#2nut%E7%83%A7%E5%BD%95" class="hash-link" aria-label="2.Nut烧录的直接链接" title="2.Nut烧录的直接链接">​</a></h3>
 <p>运行STM32 ST-LINK Utility程序，进行Nut连接。</p>
 <p><img decoding="async" loading="lazy" alt="img" src="https://cracknuts.io/assets/images/wps30-6da07455c3dfd41cb157560603fda40a.jpg" width="553" height="405" class="img_ntm8"></p>
-<blockquote>
-<p>[!CAUTION]</p>
-<p>确认连接状态</p>
-</blockquote>
+<div class="theme-admonition theme-admonition-warning admonition_EKBE alert alert--warning"><div class="admonitionHeading_SCHE"><span class="admonitionIcon_xe83"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>注意</div><div class="admonitionContent_OKH5"><p>确认连接状态</p></div></div>
 <p>打开文件，找到<strong>nut_st_workspace</strong>路径下的对应芯片型号文件并确认选择</p>
 <p><img decoding="async" loading="lazy" alt="img" src="https://cracknuts.io/assets/images/wps31-e80de013c1d2784383ab6628a98c371a.jpg" width="554" height="458" class="img_ntm8"></p>
-<blockquote>
-<p>[!NOTE]</p>
-<p>示例为<strong>nut_stm32f103c8</strong></p>
-</blockquote>
+<div class="theme-admonition theme-admonition-note admonition_EKBE alert alert--secondary"><div class="admonitionHeading_SCHE"><span class="admonitionIcon_xe83"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>备注</div><div class="admonitionContent_OKH5"><p>示例为<strong>nut_stm32f103c8</strong></p></div></div>
 <p><img decoding="async" loading="lazy" alt="img" src="https://cracknuts.io/assets/images/wps32-f511559f14c594f9d2d13a9cfecb1ce2.jpg" width="554" height="404" class="img_ntm8"></p>
 <p><img decoding="async" loading="lazy" src="https://cracknuts.io/assets/images/image-20250410090025405-1744246827709-49-1744248064801-43-f37c0d3324b10e6e976761da0b8c2eb4.png" width="557" height="178" class="img_ntm8"></p>
 <p><strong>文件打开成功后提示</strong></p>
@@ -141,7 +116,6 @@
 <p><img decoding="async" loading="lazy" alt="alt text" src="https://cracknuts.io/assets/images/1744012043317-60167626eecb196519e29328b7a9a546.png" width="1062" height="348" class="img_ntm8"></p>
 <p>安装后将开启基本的代码提示，如果您需要更高级的功能，可以把上面的<code>python-lsp-server</code>替换为<code>python-lsp-server[all]</code>，</p>
 <div class="language-shell codeBlockContainer_JVOB theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_jO8k"><pre tabindex="0" class="prism-code language-shell codeBlock_Iofn thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_SwNd"><span class="token-line" style="color:#393A34"><span class="token plain">pip install jupyterlab-lsp python-lsp-server[all]</span><br></span></code></pre><div class="buttonGroup_U4GQ"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_Tqjo" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_mOcy"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_L28Z"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p>{/* truncate */}</p>
 <p>安装后，他将包含以下额外的功能：</p>
 <ul>
 <li>flake8（代码静态检查）</li>
@@ -167,7 +141,6 @@
 <div class="language-shell codeBlockContainer_JVOB theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_jO8k"><pre tabindex="0" class="prism-code language-shell codeBlock_Iofn thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_SwNd"><span class="token-line" style="color:#393A34"><span class="token plain">pip install "git+ssh://git@github.com:cracknuts-team/scarr.git"</span><br></span></code></pre><div class="buttonGroup_U4GQ"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_Tqjo" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_mOcy"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_L28Z"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 </li>
 </ol>
-<p>{/* truncate */}</p>
 <ol start="2">
 <li>
 <p>代码下载到本都后进行安装</p>
@@ -192,7 +165,6 @@
 <h3 class="anchor anchorWithStickyNavbar_Fy01" id="主要参数">主要参数<a href="https://cracknuts.io/blog/2025/03/25/stm32f103_sca#%E4%B8%BB%E8%A6%81%E5%8F%82%E6%95%B0" class="hash-link" aria-label="主要参数的直接链接" title="主要参数的直接链接">​</a></h3>
 <p>STM32F103C8芯片的架构如下图所示（RM0008）。</p>
 <p><img decoding="async" loading="lazy" alt="system_architecture" src="https://cracknuts.io/assets/images/system_architecture-c208a3d13bcf433d1340e4de29e24811.png" width="864" height="656" class="img_ntm8"></p>
-<p>{/* truncate */}</p>
 <p>主要参数如下：</p>
 <ol>
 <li><strong>内核</strong>：采用ARM 32位的Cortex-M3处理器，主频最高可达72MHz，具有单周期乘法和硬件除法功能。</li>
@@ -421,8 +393,7 @@
 <p>清华镜像（暂时不推荐，镜像仓库没有同步<code>cracknuts</code>库）</p>
 <div class="language-shell codeBlockContainer_JVOB theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_jO8k"><pre tabindex="0" class="prism-code language-shell codeBlock_Iofn thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_SwNd"><span class="token-line" style="color:#393A34"><span class="token plain">pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">pip config set install.trusted-host pypi.tuna.tsinghua.edu.cn</span><br></span></code></pre><div class="buttonGroup_U4GQ"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_Tqjo" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_mOcy"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_L28Z"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 </li>
-</ul>
-<p>{/* truncate */}</p>]]></content:encoded>
+</ul>]]></content:encoded>
         </item>
     </channel>
 </rss>
