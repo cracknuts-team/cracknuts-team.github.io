@@ -11,7 +11,7 @@
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.3e14f125.css">
-<script src="/assets/js/runtime~main.783b48b1.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.a75d7b70.js" defer="defer"></script>
 <script src="/assets/js/main.d03ca87c.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -55,12 +55,16 @@
 </li>
 </ol>
 <h2 class="anchor anchorWithStickyNavbar_Fy01" id="采集流程">采集流程<a href="#采集流程" class="hash-link" aria-label="采集流程的直接链接" title="采集流程的直接链接">​</a></h2>
-<p>在“快速开始”章节中，您可能已经注意到，使用 <code>CrackNuts</code> 进行波形采集时，只需控制 Nut 的动作，即可完成能量波形的采集。这是因为 <code>CrackNuts</code> 设计了一套的采集流程，旨在降低用户操作复杂度，使用户能够专注于对 <code>Nut</code> 的加密等核心流程控制。</p>
-<p>该采集流程由 <code>Acquisition</code> 类负责管理，也就是在使用控制面板前创建的 <code>acq</code> 对象。它实现了指令发送、加密数据保存、能量轨迹保存等关键步骤，并预留了 <code>init</code> 和 <code>do</code> 两个阶段以供用户插入自定义逻辑。</p>
-<p>其中，<code>init</code> 阶段用于进行设备的基础配置操作，<code>do</code> 阶段则用于执行具体的加密过程。</p>
+<p>在“快速开始”章节中，您可能已经注意到，使用 <code>CrackNuts</code> 进行波形采集时，仅需控制 <code>Nut</code> 的动作，即可完成能量波形的采集。这是因为 <code>CrackNuts</code> 设计了一套简化的采集流程，旨在降低操作复杂度，使用户能够专注于 <code>Nut</code> 的加密等核心流程控制。</p>
+<p>该采集流程由 <code>Acquisition</code> 类负责管理，即使用控制面板前创建的 <code>acq</code> 对象。该对象实现了指令发送、加密数据保存、能量轨迹保存等关键步骤，并预留了 <code>init</code> 和 <code>do</code> 两个阶段，供用户插入自定义逻辑。通过该流程，用户可以实现以下功能：</p>
+<ul>
+<li>使用图形界面配置参数，支持波形实时展示，便于调整设备设置；</li>
+<li>自动保存配置参数，方便实验流程复现；</li>
+<li>自动保存采集到的曲线数据，便于后续的数据分析。</li>
+</ul>
 <p>采集流程的结构如下图所示：</p>
 <p><img decoding="async" loading="lazy" alt="alt text" src="/assets/images/acq.drawio-eccccccdbadff60c442d810689b5c836.svg" class="img_ntm8"></p>
-<p>与这个流  程对应的Cracker及Nut的流程图如下图：</p>
+<p>与这个流程对应的Cracker及Nut的流程图如下图：</p>
 <p><img decoding="async" loading="lazy" alt="alt text" src="/assets/images/acq_time_seq.excalidraw-695e79fa273e6148ae696d1490ceaba3.svg" width="1918" height="994" class="img_ntm8"></p>
 <p>图中，<code>CrackNuts</code> 表示上位机软件，<code>Cracker</code> 是测试设备，<code>Nut</code> 为被测对象，下发的 <code>Wave</code> 则代表侧信道信号。
 用户需实现两个函数：<code>init()</code> 和 <code>do()</code>，其中 <code>init()</code> 函数仅在采集流程开始时执行一次，而 <code>do()</code> 函数则会被循环调用。
@@ -73,10 +77,10 @@
 <p>这其中<code>new_acquisition</code>必须传入的参数中含义如下，其他更:</p>
 <ul>
 <li>cracker: Acquisiton 流程要管理的<code>Cracker</code>目标</li>
-<li>do: 用户具体的加密逻辑函数，并且回需返回要保存到波形文件中的数据</li>
+<li>do: 用户具体的加密逻辑函数， 并且回需返回要保存到波形文件中的数据</li>
 <li>init: 能量轨迹采集开始前的准备工作，如一些基础的配置</li>
 </ul>
-<p>同样的 ，在控制面板中（关于控制面板的介绍在后续在Jupyter中使用CrackNuts上位机中有介绍），有着更丰富的流程控制参数可以配置：</p>
+<p>同样的，在控制面板中（关于控制面板的介绍在后续在Jupyter中使用CrackNuts上位机中有介绍），有着更丰富的流程控制参数可以配置：</p>
 <p><img decoding="async" loading="lazy" alt="alt text" src="/assets/images/1743675277350-1fac3162b35e1288b6fc653bbe333faf.png" width="1945" height="791" class="img_ntm8"></p>
 <p>其含义如下（参考上面的流程图可更好的理解）这些参数如果对整体流程不了解的情况下不建议修改：</p>
 <ul>
@@ -100,7 +104,7 @@
 <li>保存格式：曲线文件的保存格式，默认是<code>scarr</code>格式，可选<code>numpy</code>格式</li>
 <li>保存路径：曲线文件的保存文件夹，曲线文件会以时间戳格式命名保存到这个目录下</li>
 </ul>
-<p><code>CrackNuts</code>面板的其他功能可参考后续章节的介绍。</p>
+<p><code>CrackNuts</code>面  板的其他功能可参考后续章节的介绍。</p>
 <h2 class="anchor anchorWithStickyNavbar_Fy01" id="在jupyter中使用cracknuts上位机">在Jupyter中使用CrackNuts上位机<a href="#在jupyter中使用cracknuts上位机" class="hash-link" aria-label="在Jupyter中使用CrackNuts上位机的直接链接" title="在Jupyter中使用CrackNuts上位机的直接链接">​</a></h2>
 <p>除了可以在<code>Python</code>控制台和<code>Python</code>脚本文件中使用<code>CrackNuts</code>外，还可以使用<code>Jupyter</code>环境，也是我们推荐的方式。在<code>Jupyter</code>中我们提供了更为简洁的<code>GUI</code>控制面板方式实现对设备的控制、数据的展现。</p>
 <p>并且还提供了<code>cracknuts lab</code>这个简洁命令来启动一个<code>Jupyter</code>环境。</p>
@@ -125,7 +129,7 @@
 <p><code>保存配置</code>与<code>导出配置</code>的区别是，其把当前配置保存到与<code>Jupyter Notebook</code>文件关联的配置文件中，下次打开该<code>Jupyter Notebook</code>中的设备控制面板时自动加载该配置。、
 而导出配置则导出到一个配置文件，用户可以在需要的时候通过<code>加载配置</code>加载该配置。</p>
 <div class="theme-admonition theme-admonition-warning admonition_EKBE alert alert--warning"><div class="admonitionHeading_SCHE"><span class="admonitionIcon_xe83"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>注意</div><div class="admonitionContent_OKH5"><p>默认情况下，通过代码对<code>Cracker</code>的配置会同步到控制面板中，但是如果控制面中加载了配置文件中配置（无论是加载的关联<code>Jupyter Notebook</code>还是通过<code>加载配置</code>配置加载的外部配置）
-并且其与设备中的配置不一致，控制面板将通过<code>写入配置</code>这个按钮变成红色进行提示，此时通过代码对设备的配置将不同步到控制面板中，直到通过写入按钮把配置写入到设备。</p><p><img decoding="async" loading="lazy" alt="alt text" src="/assets/images/1743669666208-8dd62c996b459cd778ca69c9d2ac73f3.png" width="1943" height="782" class="img_ntm8"></p></div></div>
+并且其与设备中的配置不一致，控制面板将通过<code>写入配置</code>这 个按钮变成红色进行提示，此时通过代码对设备的配置将不同步到控制面板中，直到通过写入按钮把配置写入到设备。</p><p><img decoding="async" loading="lazy" alt="alt text" src="/assets/images/1743669666208-8dd62c996b459cd778ca69c9d2ac73f3.png" width="1943" height="782" class="img_ntm8"></p></div></div>
 <h3 class="anchor anchorWithStickyNavbar_Fy01" id="语言切换">语言切换<a href="#语言切换" class="hash-link" aria-label="语言切换的直接链接" title="语言切换的直接链接">​</a></h3>
 <p>控制面板在第一次使用时，默认界面展示的是英文，用户可以通过面板右上角的语言切换按钮进行切换，切换后对所有<code>Jupyter Notebooke</code>生效。</p>
 <p><img decoding="async" loading="lazy" alt="alt text" src="/assets/images/1743669982181-543c13d47109b3e0127b0e329e1ea4ec.png" width="1942" height="782" class="img_ntm8"></p>
