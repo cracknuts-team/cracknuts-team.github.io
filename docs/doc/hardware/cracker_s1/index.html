@@ -11,7 +11,7 @@
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.3e14f125.css">
-<script src="/assets/js/runtime~main.8940e0dd.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.1e1cd504.js" defer="defer"></script>
 <script src="/assets/js/main.19b57f30.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -26,16 +26,16 @@
 <li>UART、SPI、I2C、CAN</li>
 <li>时钟信号，4MHz、8MHz、12MHz、24MHz</li>
 <li>复位信号</li>
-<li>供电电压2.0V至4.1V，步进0.1V。</li>
+<li>供电电压2.0V至4.1V，步进0.1V</li>
 </ul>
 </li>
 <li>
 <p>信号采集</p>
 <ul>
-<li>板载12bit高精度双通道ADC芯片；</li>
-<li>采样率：65MHz、48MHz、24MHz、12MHz、8MHz，可同<code>Nut Socket</code>时钟匹配实现同步采样；</li>
-<li>采样时钟相位调节：0°至360°，可同<code>Nut Socket</code>时钟匹配实现精细化同步采样；</li>
-<li>通道A可外接电磁探头，用于采集电磁信号；</li>
+<li>板载12bit高精度双通道ADC芯片</li>
+<li>采样率：65MHz、48MHz、24MHz、12MHz、8MHz，可同<code>Nut Socket</code>时钟匹配实现同步采样</li>
+<li>采样时钟相位调节：0°至360°，可同<code>Nut Socket</code>时钟匹配实现精细化同步采样</li>
+<li>通道A可外接电磁探头，用于采集电磁信号</li>
 <li>通道B连接板载功耗采集电路，用于采集Nut功耗</li>
 </ul>
 </li>
@@ -218,7 +218,7 @@
 
 
 
-<table><thead><tr><th>标识</th><th>功能</th></tr></thead><tbody><tr><td>VCC</td><td>连接DUT芯片VCC管脚，用于向DUT芯片供电，同时可采集DUT芯片的功耗变化。<br>供电电压变化范围2V至4.1V，步进0.1V。</td></tr><tr><td>VCC</td><td>同上</td></tr><tr><td>VCC</td><td>同上</td></tr><tr><td>VCC</td><td>同上</td></tr><tr><td>NC</td><td>未使用</td></tr><tr><td>NC</td><td>同上</td></tr><tr><td>NC</td><td>同上</td></tr><tr><td>NC</td><td>同上</td></tr><tr><td>GND</td><td>连接DUT芯片GND管脚</td></tr><tr><td>GND</td><td>同上</td></tr><tr><td>GND</td><td>同上</td></tr><tr><td>GND</td><td>同上</td></tr><tr><td>RFU</td><td>未使用</td></tr><tr><td>CLK</td><td>连接DUT芯片CLK管脚，用于向DUT提供时钟信号。</td></tr><tr><td>RSTN</td><td>连接DUT芯片RSTN管 脚，用于复位DUT芯片。</td></tr><tr><td>GP8</td><td>用户自定义管脚。</td></tr><tr><td>GP7</td><td>同上</td></tr><tr><td>GP6</td><td>同上</td></tr><tr><td>GP5</td><td>同上</td></tr><tr><td>GP4</td><td>同上</td></tr><tr><td>GP3</td><td>同上</td></tr><tr><td>GP2</td><td>同上</td></tr><tr><td>GP1</td><td>同上</td></tr><tr><td>RFU</td><td>未定义</td></tr><tr><td>U_TX</td><td>UART协议TX管脚，向DUT芯片发送数据。</td></tr><tr><td>U_RX</td><td>UART协议RX管脚，接收DUT芯片发送数据。</td></tr><tr><td>SPI_CS</td><td>SPI协议CS管脚，片选功能。</td></tr><tr><td>SCK</td><td>SPI协议SCK管脚，通信时钟。</td></tr><tr><td>MISO</td><td>SPI协议MISO管脚，接收DUT发送数据。</td></tr><tr><td>MOSI</td><td>SPI协议MOSI管脚，向DUT芯片发送数据。</td></tr><tr><td>SDA</td><td>I2C协议SDA管脚，同DUT芯片交互数据。</td></tr><tr><td>SCL</td><td>I2C协议SCL管脚，通信时钟。</td></tr><tr><td>CAN_L</td><td>CAN协议L管脚。</td></tr><tr><td>CAN_H</td><td>CAN协议H管脚。</td></tr><tr><td>RFU</td><td>未定义</td></tr></tbody></table>
+<table><thead><tr><th>标识</th><th>功能</th></tr></thead><tbody><tr><td>VCC</td><td>连接DUT芯片VCC管脚，用于向DUT芯片供电，同时可采集DUT芯片的功耗变化。<br>供电电压变化范围2V至4.1V，步进0.1V。</td></tr><tr><td>VCC</td><td>同上</td></tr><tr><td>VCC</td><td>同上</td></tr><tr><td>VCC</td><td>同上</td></tr><tr><td>NC</td><td>未使用</td></tr><tr><td>NC</td><td>同上</td></tr><tr><td>NC</td><td>同上</td></tr><tr><td>NC</td><td>同上</td></tr><tr><td>GND</td><td>连接DUT芯片GND管脚</td></tr><tr><td>GND</td><td>同上</td></tr><tr><td>GND</td><td>同上</td></tr><tr><td>GND</td><td>同上</td></tr><tr><td>RFU</td><td>未使用</td></tr><tr><td>CLK</td><td>连接DUT芯片CLK管脚，用于向DUT提供时钟信号。</td></tr><tr><td>RSTN</td><td>连接DUT芯片RSTN管脚，用于复 位DUT芯片。</td></tr><tr><td>GP8</td><td>用户自定义管脚。</td></tr><tr><td>GP7</td><td>同上</td></tr><tr><td>GP6</td><td>同上</td></tr><tr><td>GP5</td><td>同上</td></tr><tr><td>GP4</td><td>同上</td></tr><tr><td>GP3</td><td>同上</td></tr><tr><td>GP2</td><td>同上</td></tr><tr><td>GP1</td><td>同上</td></tr><tr><td>RFU</td><td>未定义</td></tr><tr><td>U_TX</td><td>UART协议TX管脚，向DUT芯片发送数据。</td></tr><tr><td>U_RX</td><td>UART协议RX管脚，接收DUT芯片发送数据。</td></tr><tr><td>SPI_CS</td><td>SPI协议CS管脚，片选功能。</td></tr><tr><td>SCK</td><td>SPI协议SCK管脚，通信时钟。</td></tr><tr><td>MISO</td><td>SPI协议MISO管脚，接收DUT发送数据。</td></tr><tr><td>MOSI</td><td>SPI协议MOSI管脚，向DUT芯片发送数据。</td></tr><tr><td>SDA</td><td>I2C协议SDA管脚，同DUT芯片交互数据。</td></tr><tr><td>SCL</td><td>I2C协议SCL管脚，通信时钟。</td></tr><tr><td>CAN_L</td><td>CAN协议L管脚。</td></tr><tr><td>CAN_H</td><td>CAN协议H管脚。</td></tr><tr><td>RFU</td><td>未定义</td></tr></tbody></table>
 <h2 class="anchor anchorWithStickyNavbar_Fy01" id="信号采集">信号采集<a href="#信号采集" class="hash-link" aria-label="信号采集的直接链接" title="信号采集的直接链接">​</a></h2>
 <p>Cracker-S1支持功耗信号、电磁信号采集功能，板载高精度ADC芯片支持2路信号输入：</p>
 <ul>
@@ -674,7 +674,7 @@
 <h3 class="anchor anchorWithStickyNavbar_Fy01" id="spi_transmit">spi_transmit()<a href="#spi_transmit" class="hash-link" aria-label="spi_transmit()的直接链接" title="spi_transmit()的直接链接">​</a></h3>
 <div class="language-python codeBlockContainer_JVOB theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_jO8k"><pre tabindex="0" class="prism-code language-python codeBlock_Iofn thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_SwNd"><span class="token-line" style="color:#393A34"><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">status</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> none</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> spi_transmit</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">txData</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> isTrigger </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token boolean" style="color:#36acaa">False</span><span class="token punctuation" style="color:#393A34">)</span><br></span></code></pre><div class="buttonGroup_U4GQ"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_Tqjo" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_mOcy"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_L28Z"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p><strong>功能：</strong></p>
-<p>通过SPI接口发送bytes型数据<code>txData</code>，根据<code>isTrigger</code>决定在数据发送后是否产生触发信号。</p>
+<p>通过SPI接口发送bytes型数据<code>txData</code> ，根据<code>isTrigger</code>决定在数据发送后是否产生触发信号。</p>
 <p><img decoding="async" loading="lazy" alt="image-20241204212353323" src="/assets/images/image-20241204212353323-86350188d59041877763cfe9076ad576.png" width="556" height="247" class="img_ntm8"></p>
 <p><strong>参数：</strong></p>
 
@@ -896,7 +896,7 @@
 
 
 
-<table><thead><tr><th>参数</th><th>默认值</th><th>描述</th><th>备注</th></tr></thead><tbody><tr><td>status</td><td>0</td><td>执行状态。</td><td></td></tr><tr><td>rxData</td><td>none</td><td>接收到的数据。</td><td></td></tr></tbody></table>
+<table><thead><tr><th>参数</th><th>默认值</th><th>描述</th><th>备注</th></tr></thead><tbody><tr><td>status</td><td>0</td><td>执行状态。</td><td></td></tr><tr><td>rxData</td><td>none</td><td>接收到的 数据。</td><td></td></tr></tbody></table>
 <h2 class="anchor anchorWithStickyNavbar_Fy01" id="i2c">I2C<a href="#i2c" class="hash-link" aria-label="I2C的直接链接" title="I2C的直接链接">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_Fy01" id="i2c_enable">i2c_enable()<a href="#i2c_enable" class="hash-link" aria-label="i2c_enable()的直接链接" title="i2c_enable()的直接链接">​</a></h3>
 <div class="language-python codeBlockContainer_JVOB theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_jO8k"><pre tabindex="0" class="prism-code language-python codeBlock_Iofn thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_SwNd"><span class="token-line" style="color:#393A34"><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">status</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> none</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> i2c_enable</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">enable</span><span class="token operator" style="color:#393A34">=</span><span class="token boolean" style="color:#36acaa">False</span><span class="token punctuation" style="color:#393A34">)</span><br></span></code></pre><div class="buttonGroup_U4GQ"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_Tqjo" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_mOcy"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_L28Z"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
@@ -1036,7 +1036,7 @@
 <table><thead><tr><th>参数</th><th>默认值</th><th>描述</th><th>备注</th></tr></thead><tbody><tr><td>status</td><td>0</td><td>执行状态。</td><td></td></tr></tbody></table>
 <h3 class="anchor anchorWithStickyNavbar_Fy01" id="i2c_transmit">i2c_transmit()<a href="#i2c_transmit" class="hash-link" aria-label="i2c_transmit()的直接链接" title="i2c_transmit()的直接链接">​</a></h3>
 <div class="language-python codeBlockContainer_JVOB theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_jO8k"><pre tabindex="0" class="prism-code language-python codeBlock_Iofn thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_SwNd"><span class="token-line" style="color:#393A34"><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">status</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> none</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> i2c_transmit</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">txData</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> isTrigger </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token boolean" style="color:#36acaa">False</span><span class="token punctuation" style="color:#393A34">)</span><br></span></code></pre><div class="buttonGroup_U4GQ"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_Tqjo" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_mOcy"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_L28Z"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p><strong>功能：</strong></p>
+<p><strong>功 能：</strong></p>
 <p>通过I2C接口发送N个bytes型数据<code>txData</code>，设备地址使用<code>i2c_config()</code>配置的地址。</p>
 <p><img decoding="async" loading="lazy" alt="image-20241211001009817" src="/assets/images/image-20241211001009817-bde9974118a33f48f23bb129b8ad54f7.png" width="1136" height="311" class="img_ntm8"></p>
 <p><strong>参数：</strong></p>
