@@ -8,7 +8,7 @@
     <subtitle>CrackNuts Blog</subtitle>
     <icon>https://cracknuts.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[欢迎使用CrackNuts]]></title>
+        <title type="html"><![CDATA[Welcome]]></title>
         <id>https://cracknuts.io/blog/welcome</id>
         <link href="https://cracknuts.io/blog/welcome"/>
         <updated>2025-05-15T09:22:47.000Z</updated>
